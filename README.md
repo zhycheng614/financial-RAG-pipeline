@@ -34,7 +34,7 @@ Headline result: HDRR reaches 7.54 average score / 6.4% failure rate versus 6.02
 ├── scripts/              Analysis + aggregation utilities used to build the tables
 ├── random_queries_csv/   The five fixed 300-query FinDER splits (G01–G05)
 ├── example_queries/      Small sample query CSV
-├── results/              Raw per-query outputs and benchmark scores (112 CSVs)
+├── output/               Raw per-query outputs and benchmark scores (112 CSVs)
 └── docs/                 Published supplementary material (Tables S1–S3)
 ```
 
@@ -73,7 +73,7 @@ local_llms/jina_rerank_tokenizer.json
 
 **Known issue:** the pinned `nexaai==1.0.37rc9` fetches a platform binary at build time and that download currently returns HTTP 403, so this install may fail. The rest of the pipeline is unaffected — the import is lazy. Use `--rerank-jina` (with `JINA_API_KEY`) or `--no-rerank` in the meantime; note that reranking materially affects results, so neither reproduces the paper's numbers exactly.
 
-**Windows note:** some files under `results/` have 133-character paths. Clone into a short directory (e.g. `C:\src\`), or enable long paths with `git config --global core.longpaths true`.
+**Windows note:** some files under `output/` have 133-character paths. Clone into a short directory (e.g. `C:\src\`), or enable long paths with `git config --global core.longpaths true`.
 
 ## Reproducing the paper
 
@@ -93,13 +93,13 @@ Produces `full_10k.rag_pipeline.db` and `full_10k.faiss_index.index`. The paper'
 # CBR
 python -m main.main_query --csv ../random_queries_csv/Linq-AI-Research_FinDER-300-01.csv \
     -p full_10k --column query --id-column query_id \
-    --output-csv ../results/cbr-group-01.csv --concurrent 3 --rerank-use-local
+    --output-csv ../output/cbr-group-01.csv --concurrent 3 --rerank-use-local
 
 # HDRR
 python -m main.main_hybrid_query --csv ../random_queries_csv/Linq-AI-Research_FinDER-300-01.csv \
     -p full_10k --data-dir /path/to/10k/pdfs --default-year 2023 \
     --column query --id-column query_id \
-    --output-csv ../results/hdrr-group-01.csv --concurrent 3 --rerank-use-local
+    --output-csv ../output/hdrr-group-01.csv --concurrent 3 --rerank-use-local
 ```
 
 `scripts/*.ps1` hold the exact invocations used for each system.
@@ -107,7 +107,7 @@ python -m main.main_hybrid_query --csv ../random_queries_csv/Linq-AI-Research_Fi
 **3. Score against FinDER ground truth:**
 
 ```bash
-python -m main.main_benchmark_rag_result --input-csv ../results/hdrr-group-01.csv \
+python -m main.main_benchmark_rag_result --input-csv ../output/hdrr-group-01.csv \
     --hf-dataset Linq-AI-Research/FinDER --gt-field answer --id-field _id \
     --split train --concurrent 3
 ```
@@ -120,7 +120,7 @@ Note `--id-field _id` — that is FinDER's HuggingFace field name, not the `quer
 python scripts/compute_all_systems_per_group.py
 ```
 
-This regenerates `results/all_systems_per_group_metrics.csv`, which is Table S1 of the supplementary material and whose mean rows are Table 6 of the article.
+This regenerates `output/all_systems_per_group_metrics.csv`, which is Table S1 of the supplementary material and whose mean rows are Table 6 of the article.
 
 ## How it works
 
@@ -143,7 +143,7 @@ This regenerates `results/all_systems_per_group_metrics.csv`, which is Table S1 
 
 ## Results
 
-`results/` holds the raw artifacts, named `{system}-{dataset}-{group}-{model}-{timestamp}.csv`:
+`output/` holds the raw artifacts, named `{system}-{dataset}-{group}-{model}-{timestamp}.csv`:
 
 - `*-300-0N-*.csv` — per-query outputs (retrieved chunk ids, routed documents, generated answer)
 - `benchmark-*.csv` — per-query LLM-as-judge scores against FinDER ground truth
@@ -155,7 +155,7 @@ This regenerates `results/all_systems_per_group_metrics.csv`, which is Table S1 
 
 ## Data availability
 
-The 10-K corpus is not redistributed. Filings are public and retrievable from [SEC EDGAR](https://www.sec.gov/edgar); the ticker set is recoverable from the `document_ids` and `routed_documents` columns in `results/`. Queries and ground-truth answers come from [`Linq-AI-Research/FinDER`](https://huggingface.co/datasets/Linq-AI-Research/FinDER) on HuggingFace; the five fixed 300-query splits used throughout the paper are in `random_queries_csv/`.
+The 10-K corpus is not redistributed. Filings are public and retrievable from [SEC EDGAR](https://www.sec.gov/edgar); the ticker set is recoverable from the `document_ids` and `routed_documents` columns in `output/`. Queries and ground-truth answers come from [`Linq-AI-Research/FinDER`](https://huggingface.co/datasets/Linq-AI-Research/FinDER) on HuggingFace; the five fixed 300-query splits used throughout the paper are in `random_queries_csv/`.
 
 ## Tests
 
