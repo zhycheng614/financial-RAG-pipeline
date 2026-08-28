@@ -27,4 +27,5 @@ datasets>=2.0.0
 # Note: The 'datasets' library is only required if you plan to use HuggingFace datasets
 # as an input source (--hf-dataset flag). For CLI and CSV inputs, it's not needed.
 
-nexaai==1.0.37rc9
+# Local GGUF reranker (--rerank-use-local) is an optional extra:
+#   pip install -r requirements_local_reranker.txt

@@ -89,6 +89,10 @@ class TestChunkDao(unittest.TestCase):
         """Clean up temporary database"""
         if self.db_manager.conn:
             self.db_manager.conn.close()
+        # Dispose the SQLAlchemy engine too: its pooled connections keep the
+        # file open, and Windows refuses os.remove() on an open file.
+        if getattr(self.db_manager, 'engine', None) is not None:
+            self.db_manager.engine.dispose()
         if os.path.exists(self.db_path):
             os.remove(self.db_path)
         if os.path.exists(self.temp_dir):
@@ -401,7 +405,7 @@ class TestChunkDao(unittest.TestCase):
         """Test keyword search as a phrase"""
         chunk1_id = self.chunk_dao.add(Chunk(
             document_id=self.doc1_id,
-            chunk_text="Natural language processing is fascinating",
+            chunk_text="Natural language processing",
             file="doc1.pdf"
         ))
         chunk2_id = self.chunk_dao.add(Chunk(
@@ -409,64 +413,39 @@ class TestChunkDao(unittest.TestCase):
             chunk_text="Natural language understanding",
             file="doc1.pdf"
         ))
-        
-        # Search for exact phrase
-        chunk_ids, scores = self.chunk_dao.search_keyword_with_scores(
+
+        chunk_ids, scores, used_query = self.chunk_dao.search_with_scores(
             "natural language",
             limit=10
         )
-        
+
         self.assertGreater(len(chunk_ids), 0)
         self.assertEqual(len(chunk_ids), len(scores))
-    
-    def test_keyword_search_with_exclusions(self):
-        """Test keyword search with exclusions"""
+        self.assertIsInstance(used_query, str)
+
+    def test_keyword_search_with_subset(self):
+        """Test keyword search constrained to a subset of chunk IDs"""
         chunk1_id = self.chunk_dao.add(Chunk(
             document_id=self.doc1_id,
             chunk_text="Cloud computing infrastructure",
             file="doc1.pdf"
         ))
         chunk2_id = self.chunk_dao.add(Chunk(
-            document_id=self.doc1_id,
-            chunk_text="Cloud storage solutions",
-            file="doc1.pdf"
-        ))
-        
-        # Search but exclude chunk1
-        chunk_ids, scores = self.chunk_dao.search_keyword_with_scores(
-            "cloud",
-            exclude_chunk_ids=[chunk1_id],
-            limit=10
-        )
-        
-        # chunk1 should not be in results
-        if len(chunk_ids) > 0:
-            self.assertNotIn(chunk1_id, chunk_ids)
-    
-    def test_keyword_search_with_file_filter(self):
-        """Test keyword search filtered by file IDs"""
-        chunk1_id = self.chunk_dao.add(Chunk(
-            document_id=self.doc1_id,
-            chunk_text="API design principles",
-            file="doc1.pdf"
-        ))
-        chunk2_id = self.chunk_dao.add(Chunk(
             document_id=self.doc2_id,
-            chunk_text="API development best practices",
+            chunk_text="Cloud storage solutions",
             file="doc2.pdf"
         ))
-        
-        # Search only in doc1
-        chunk_ids, scores = self.chunk_dao.search_keyword_with_scores(
-            "API",
-            include_file_ids=[self.doc1_id],
+
+        # Constrain the search to chunk2 only; chunk1 must not come back.
+        chunk_ids, scores, _ = self.chunk_dao.search_with_scores(
+            "cloud",
+            subset_ids=[chunk2_id],
             limit=10
         )
-        
-        if len(chunk_ids) > 0:
-            # chunk2 should not be in results
-            self.assertNotIn(chunk2_id, chunk_ids)
-    
+
+        self.assertNotIn(chunk1_id, chunk_ids)
+        self.assertEqual(len(chunk_ids), len(scores))
+
     def test_fts_triggers_on_insert(self):
         """Test that FTS table is automatically updated on insert"""
         chunk = Chunk(

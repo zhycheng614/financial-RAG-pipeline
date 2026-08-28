@@ -49,7 +49,7 @@ pip install -r requirements_query.txt      # indexing + query
 pip install -r requirements_indexing.txt   # indexing only
 ```
 
-Create a `.env` at the repository root:
+Copy `.env.template` to `.env` at the repository root and add your key:
 
 ```env
 OPENAI_API_KEY=sk-...
@@ -58,14 +58,22 @@ JINA_API_KEY=...          # optional; only for cloud reranking
 
 `src/constants.py` loads it automatically. Shell environment variables take precedence. A missing `OPENAI_API_KEY` raises a clear error at startup.
 
-**Optional local reranker.** For `--rerank-use-local`, place the GGUF model and tokenizer under `local_llms/`:
+**Optional local reranker.** All experiments in the paper use a local GGUF reranker rather than the Jina cloud API. It is an optional extra:
+
+```bash
+pip install -r requirements_local_reranker.txt
+```
+
+Then place the model and tokenizer under `local_llms/`:
 
 ```
 local_llms/jina-reranker-v2-base-multilingual-F16.gguf
 local_llms/jina_rerank_tokenizer.json
 ```
 
-All experiments in the paper use the local reranker, not the Jina cloud API.
+**Known issue:** the pinned `nexaai==1.0.37rc9` fetches a platform binary at build time and that download currently returns HTTP 403, so this install may fail. The rest of the pipeline is unaffected — the import is lazy. Use `--rerank-jina` (with `JINA_API_KEY`) or `--no-rerank` in the meantime; note that reranking materially affects results, so neither reproduces the paper's numbers exactly.
+
+**Windows note:** some files under `results/` have 133-character paths. Clone into a short directory (e.g. `C:\src\`), or enable long paths with `git config --global core.longpaths true`.
 
 ## Reproducing the paper
 
@@ -155,6 +163,8 @@ The 10-K corpus is not redistributed. Filings are public and retrievable from [S
 cd src
 python -m unittest discover tests/db_tests
 ```
+
+55 tests, no API key or corpus required.
 
 ## Citation
 

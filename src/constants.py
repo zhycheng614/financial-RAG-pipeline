@@ -1,5 +1,18 @@
 import os
+import sys
 from pathlib import Path
+
+# ---------------------------------------------------------------------------
+# Console encoding
+# ---------------------------------------------------------------------------
+# The CLIs print status symbols (checkmarks, warning signs). On a default
+# Windows console stdout is cp1252 and those raise UnicodeEncodeError mid-run,
+# so force UTF-8 where the stream supports it.
+for _stream in (sys.stdout, sys.stderr):
+    try:
+        _stream.reconfigure(encoding="utf-8", errors="replace")
+    except (AttributeError, ValueError):
+        pass
 
 # ---------------------------------------------------------------------------
 # Secrets / environment loading

@@ -16,7 +16,11 @@ class Sqlite3DbManager:
         self.session_factory = None  # Will be set after engine is created
 
         self.conn = self.create_file_db()
-        self.engine = self._get_engine_from_connection()
+        # create_file_db() -> _setup_connection() already builds the engine.
+        # Rebuilding it here would orphan the first one, whose StaticPool holds
+        # an open handle on the database file that can never be disposed.
+        if self.engine is None:
+            self.engine = self._get_engine_from_connection()
         self.session_factory = self.create_session_factory()
 
     def _get_engine_from_connection(self) -> Engine:

@@ -84,6 +84,10 @@ class TestDocumentDao(unittest.TestCase):
         """Clean up temporary database"""
         if self.db_manager.conn:
             self.db_manager.conn.close()
+        # Dispose the SQLAlchemy engine too: its pooled connections keep the
+        # file open, and Windows refuses os.remove() on an open file.
+        if getattr(self.db_manager, 'engine', None) is not None:
+            self.db_manager.engine.dispose()
         if os.path.exists(self.db_path):
             os.remove(self.db_path)
         if os.path.exists(self.temp_dir):
