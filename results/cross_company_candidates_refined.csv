@@ -1,0 +1,6 @@
+group,query_id,query,n_tickers,tickers,n_kept,kept_tickers
+01,8a0f4278,"Effect of GRMN TTM/product availability on mkt share & growth vs AAPL, SSNLF, HON.",3,"GRMN,AAPL,HON",3,"GRMN,AAPL,HON"
+01,990bcfc5,"Historical profitability of system executions & competitive position of Lockheed Martin vs Boeing & Northrop Grumman, TKR: LMT, BA, NOC.",3,"LMT,BA,NOC",3,"LMT,BA,NOC"
+01,443e45f5,Margins impact of BSX vs competition from ABT & MDT.,3,"BSX,ABT,MDT",3,"BSX,ABT,MDT"
+02,8040a89d,"Revenue & profitability trends for Baker Hughes (BKR) vs SLB (SLB), Halliburton (HAL), & Siemens Energy (ENR).",3,"BKR,SLB,HAL",3,"BKR,SLB,HAL"
+04,dd21ae68,The impact of WBD's (Warner Bros. Discovery) content/IP strength on sustained ROI.,2,"WBD,IP",2,"WBD,IP"

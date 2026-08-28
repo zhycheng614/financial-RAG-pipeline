@@ -1,0 +1,5 @@
+system,n_queries,errors,avg_retrieval_coverage,full_retrieval_n,full_retrieval_pct,avg_answer_coverage,full_answer_n,full_answer_pct,avg_routing_coverage,full_routing_n,full_routing_pct,agentic_verif_dist,avg_retry_count,avg_total_llm_calls,avg_elapsed_ms
+CBR,25,0,0.893,19,76.0%,0.96,24,96.0%,,,,,,,
+V-B,25,0,0.92,21,84.0%,0.98,24,96.0%,,,,,,,
+Agentic,25,0,0.927,21,84.0%,0.92,23,92.0%,,,,"{""YES"": 16, ""NO|YES"": 4, ""NO|NO|YES"": 1, ""NO|NO|NO"": 4}",0.56,3.56,9112
+HDRR,25,0,0.953,23,92.0%,0.98,24,96.0%,1.0,25,100.0%,,,,

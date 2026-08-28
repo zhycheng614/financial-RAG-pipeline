@@ -1,0 +1,6 @@
+routing_status,count,percent_of_total,avg_score,failure_rate,correctness_rate,perfect_rate
+filename_fallback,1396,93.07,7.785,0.040,0.708,0.211
+fallback_no_files_on_disk,63,4.20,4.032,0.460,0.254,0.063
+fallback_no_tickers,41,2.73,4.610,0.268,0.268,0.049
+fallback_any (aggregated),104,6.93,4.260,0.385,0.260,0.058
+ALL,1500,100.00,7.541,0.064,0.677,0.201

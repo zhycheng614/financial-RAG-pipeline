@@ -1,0 +1,17 @@
+# Secrets
+.env
+
+# Corpus + built indexes (not redistributed; see README "Data availability")
+data/
+local_llms/
+*.index
+*.db
+*.db-shm
+*.db-wal
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/

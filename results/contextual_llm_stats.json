@@ -1,0 +1,343 @@
+{
+  "source_project": "src/full_10k",
+  "output_project": "src/contextual_llm",
+  "contextual": "llm",
+  "default_year": 2023,
+  "llm_model": "gpt-4.1-mini",
+  "doc_preview_chars": 4500,
+  "context_max_tokens": 120,
+  "total_chunks_written": 14215,
+  "elapsed_s": 2125.1864832998253,
+  "per_doc": [
+    {
+      "mode": "llm",
+      "elapsed_s": 39.298079600092024,
+      "chunks": 282,
+      "chunks_per_s": 7.1759231715572085,
+      "doc_preview_chars": 4504,
+      "doc_id": 465,
+      "ticker": "VRSK",
+      "wall_clock_s": 39.64415610022843
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 82.36805990012363,
+      "chunks": 632,
+      "chunks_per_s": 7.672877092969522,
+      "doc_preview_chars": 4504,
+      "doc_id": 466,
+      "ticker": "SRE",
+      "wall_clock_s": 82.80694200005382
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 29.667872600257397,
+      "chunks": 251,
+      "chunks_per_s": 8.460330249558316,
+      "doc_preview_chars": 4502,
+      "doc_id": 467,
+      "ticker": "WAT",
+      "wall_clock_s": 29.9967406000942
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 33.56180030014366,
+      "chunks": 248,
+      "chunks_per_s": 7.389353305905299,
+      "doc_preview_chars": 4502,
+      "doc_id": 468,
+      "ticker": "WAB",
+      "wall_clock_s": 33.924615199677646
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 52.27266620006412,
+      "chunks": 449,
+      "chunks_per_s": 8.589575252992342,
+      "doc_preview_chars": 4502,
+      "doc_id": 469,
+      "ticker": "UHS",
+      "wall_clock_s": 52.637518799863756
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 62.311843699775636,
+      "chunks": 401,
+      "chunks_per_s": 6.435373697688291,
+      "doc_preview_chars": 4502,
+      "doc_id": 470,
+      "ticker": "VTR",
+      "wall_clock_s": 62.67885240027681
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 41.3744003996253,
+      "chunks": 320,
+      "chunks_per_s": 7.734251056430971,
+      "doc_preview_chars": 4504,
+      "doc_id": 471,
+      "ticker": "WBD",
+      "wall_clock_s": 41.75025039957836
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 44.41861540032551,
+      "chunks": 292,
+      "chunks_per_s": 6.573820398684921,
+      "doc_preview_chars": 4504,
+      "doc_id": 472,
+      "ticker": "WMT",
+      "wall_clock_s": 44.75901779998094
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 88.77283420041203,
+      "chunks": 303,
+      "chunks_per_s": 3.41320633422554,
+      "doc_preview_chars": 4504,
+      "doc_id": 473,
+      "ticker": "WDC",
+      "wall_clock_s": 89.10342770023271
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 49.30492340028286,
+      "chunks": 380,
+      "chunks_per_s": 7.707141068143713,
+      "doc_preview_chars": 4502,
+      "doc_id": 474,
+      "ticker": "VZ",
+      "wall_clock_s": 49.74572720006108
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 51.693626599851996,
+      "chunks": 210,
+      "chunks_per_s": 4.062396349661435,
+      "doc_preview_chars": 4502,
+      "doc_id": 475,
+      "ticker": "WST",
+      "wall_clock_s": 52.02083349972963
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 68.3076851000078,
+      "chunks": 443,
+      "chunks_per_s": 6.4853610446820635,
+      "doc_preview_chars": 4502,
+      "doc_id": 476,
+      "ticker": "VRTX",
+      "wall_clock_s": 68.67117159999907
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 32.93391439970583,
+      "chunks": 254,
+      "chunks_per_s": 7.712414531637599,
+      "doc_preview_chars": 4502,
+      "doc_id": 477,
+      "ticker": "WY",
+      "wall_clock_s": 33.28489730041474
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 60.997440500184894,
+      "chunks": 323,
+      "chunks_per_s": 5.295304152950826,
+      "doc_preview_chars": 4502,
+      "doc_id": 478,
+      "ticker": "WMB",
+      "wall_clock_s": 61.333729800302535
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 38.051044300198555,
+      "chunks": 291,
+      "chunks_per_s": 7.647621907672098,
+      "doc_preview_chars": 4504,
+      "doc_id": 479,
+      "ticker": "WRB",
+      "wall_clock_s": 38.38798729982227
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 62.321485499851406,
+      "chunks": 495,
+      "chunks_per_s": 7.942686154378978,
+      "doc_preview_chars": 4502,
+      "doc_id": 480,
+      "ticker": "VTRS",
+      "wall_clock_s": 62.71473939996213
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 27.14754889998585,
+      "chunks": 231,
+      "chunks_per_s": 8.509055489724908,
+      "doc_preview_chars": 4504,
+      "doc_id": 481,
+      "ticker": "ZBRA",
+      "wall_clock_s": 27.480422999709845
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 52.80995110003278,
+      "chunks": 422,
+      "chunks_per_s": 7.990918211619743,
+      "doc_preview_chars": 4502,
+      "doc_id": 482,
+      "ticker": "WBA",
+      "wall_clock_s": 53.19582959963009
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 52.94900089967996,
+      "chunks": 419,
+      "chunks_per_s": 7.913274903786382,
+      "doc_preview_chars": 4502,
+      "doc_id": 483,
+      "ticker": "WM",
+      "wall_clock_s": 53.344142800197005
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 62.33964359993115,
+      "chunks": 512,
+      "chunks_per_s": 8.213072299318783,
+      "doc_preview_chars": 4502,
+      "doc_id": 484,
+      "ticker": "WELL",
+      "wall_clock_s": 62.727914199698716
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 89.43182259984314,
+      "chunks": 510,
+      "chunks_per_s": 5.7026680791462985,
+      "doc_preview_chars": 4502,
+      "doc_id": 485,
+      "ticker": "VST",
+      "wall_clock_s": 89.9108009999618
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 43.2803076999262,
+      "chunks": 275,
+      "chunks_per_s": 6.353928948625957,
+      "doc_preview_chars": 4502,
+      "doc_id": 486,
+      "ticker": "XOM",
+      "wall_clock_s": 43.75329690007493
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 36.661096800118685,
+      "chunks": 303,
+      "chunks_per_s": 8.264891845762211,
+      "doc_preview_chars": 4502,
+      "doc_id": 487,
+      "ticker": "YUM",
+      "wall_clock_s": 37.131869699805975
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 41.7621217998676,
+      "chunks": 353,
+      "chunks_per_s": 8.452635660890179,
+      "doc_preview_chars": 4504,
+      "doc_id": 488,
+      "ticker": "WYNN",
+      "wall_clock_s": 42.15162400016561
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 57.6529580000788,
+      "chunks": 443,
+      "chunks_per_s": 7.6839075628937294,
+      "doc_preview_chars": 4504,
+      "doc_id": 489,
+      "ticker": "WEC",
+      "wall_clock_s": 58.029217599891126
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 48.03787310002372,
+      "chunks": 371,
+      "chunks_per_s": 7.723072985090525,
+      "doc_preview_chars": 4502,
+      "doc_id": 490,
+      "ticker": "XEL",
+      "wall_clock_s": 48.393672899808735
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 42.29148249980062,
+      "chunks": 336,
+      "chunks_per_s": 7.944862183575239,
+      "doc_preview_chars": 4502,
+      "doc_id": 491,
+      "ticker": "ZTS",
+      "wall_clock_s": 42.6521906000562
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 63.20196719979867,
+      "chunks": 319,
+      "chunks_per_s": 5.047311248897584,
+      "doc_preview_chars": 4502,
+      "doc_id": 492,
+      "ticker": "XYL",
+      "wall_clock_s": 63.550299800001085
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 56.85539759974927,
+      "chunks": 437,
+      "chunks_per_s": 7.6861655787968175,
+      "doc_preview_chars": 4502,
+      "doc_id": 493,
+      "ticker": "WTW",
+      "wall_clock_s": 57.2229665000923
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 34.671118799597025,
+      "chunks": 292,
+      "chunks_per_s": 8.421995312230704,
+      "doc_preview_chars": 4502,
+      "doc_id": 494,
+      "ticker": "ZBH",
+      "wall_clock_s": 35.0116629996337
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 200.1957721998915,
+      "chunks": 1537,
+      "chunks_per_s": 7.677484809546008,
+      "doc_preview_chars": 4504,
+      "doc_id": 495,
+      "ticker": "ETR",
+      "wall_clock_s": 200.8405678998679
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 199.38924160040915,
+      "chunks": 1014,
+      "chunks_per_s": 5.085530151281338,
+      "doc_preview_chars": 4502,
+      "doc_id": 496,
+      "ticker": "PRU",
+      "wall_clock_s": 199.88296739989892
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 165.96979749994352,
+      "chunks": 867,
+      "chunks_per_s": 5.223842006557217,
+      "doc_preview_chars": 4506,
+      "doc_id": 497,
+      "ticker": "SO",
+      "wall_clock_s": 166.44272749964148
+    }
+  ]
+}

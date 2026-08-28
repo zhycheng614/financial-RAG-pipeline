@@ -1,0 +1,6 @@
+SQLAlchemy>=2.0.39,<3.0.0
+langchain-text-splitters>=0.3.6,<1.0.0
+pypdfium2
+faiss-cpu
+numpy
+openai

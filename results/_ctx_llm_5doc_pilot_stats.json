@@ -1,0 +1,63 @@
+{
+  "source_project": "src/full_10k",
+  "output_project": "src/_ctx_llm_5doc_pilot",
+  "contextual": "llm",
+  "default_year": 2023,
+  "llm_model": "gpt-4.1-mini",
+  "doc_preview_chars": 3500,
+  "context_max_tokens": 120,
+  "total_chunks_written": 1167,
+  "elapsed_s": 145.80430300021544,
+  "per_doc": [
+    {
+      "mode": "llm",
+      "elapsed_s": 23.60607760027051,
+      "chunks": 139,
+      "chunks_per_s": 5.888314117818843,
+      "doc_preview_chars": 3502,
+      "doc_id": 1,
+      "ticker": "AAPL",
+      "wall_clock_s": 24.056663299910724
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 34.7197969998233,
+      "chunks": 254,
+      "chunks_per_s": 7.315710976112351,
+      "doc_preview_chars": 3502,
+      "doc_id": 2,
+      "ticker": "ACN",
+      "wall_clock_s": 35.20416679978371
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 36.502305099740624,
+      "chunks": 248,
+      "chunks_per_s": 6.794091477849223,
+      "doc_preview_chars": 3502,
+      "doc_id": 3,
+      "ticker": "ABT",
+      "wall_clock_s": 36.97094579972327
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 22.42876709997654,
+      "chunks": 244,
+      "chunks_per_s": 10.878885982112465,
+      "doc_preview_chars": 3502,
+      "doc_id": 4,
+      "ticker": "ADP",
+      "wall_clock_s": 22.895259500015527
+    },
+    {
+      "mode": "llm",
+      "elapsed_s": 26.179007899947464,
+      "chunks": 282,
+      "chunks_per_s": 10.771989568044933,
+      "doc_preview_chars": 3502,
+      "doc_id": 5,
+      "ticker": "ADI",
+      "wall_clock_s": 26.676680200267583
+    }
+  ]
+}

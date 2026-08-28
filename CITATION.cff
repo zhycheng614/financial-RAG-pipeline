@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software or the accompanying data, please cite the article below."
+title: "financial-RAG-pipeline"
+abstract: >-
+  Reproducibility repository for Hybrid Document-Routed Retrieval (HDRR):
+  pipeline source, fixed FinDER query splits, and raw benchmark outputs for the
+  six retrieval systems compared in the article.
+type: software
+license: MIT
+authors:
+  - family-names: Cheng
+    given-names: Zhiyuan
+    orcid: "https://orcid.org/0009-0003-2845-5322"
+  - family-names: Lai
+    given-names: Longying
+  - family-names: Liu
+    given-names: Yue
+preferred-citation:
+  type: article
+  title: >-
+    Sustainable Hybrid Document-Routed Retrieval for Financial RAG:
+    Resolving the Robustness-Precision Trade-off
+  authors:
+    - family-names: Cheng
+      given-names: Zhiyuan
+      orcid: "https://orcid.org/0009-0003-2845-5322"
+    - family-names: Lai
+      given-names: Longying
+    - family-names: Liu
+      given-names: Yue
+  journal: "Intelligent Systems with Applications"
+  year: 2026

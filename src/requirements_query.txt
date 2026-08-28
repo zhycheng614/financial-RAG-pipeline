@@ -1,0 +1,30 @@
+# Requirements for RAG Query Pipeline
+# Includes all indexing requirements plus query-specific dependencies
+
+# Database and ORM
+SQLAlchemy>=2.0.39,<3.0.0
+
+# Text processing
+langchain-text-splitters>=0.3.6,<1.0.0
+
+# PDF parsing
+pypdfium2
+
+# Vector search
+faiss-cpu
+numpy
+
+# LLM and embeddings API client
+openai
+
+# HTTP clients for reranking API
+requests>=2.31.0
+httpx>=0.24.0
+
+# Optional: HuggingFace dataset support (for --hf-dataset input)
+datasets>=2.0.0
+
+# Note: The 'datasets' library is only required if you plan to use HuggingFace datasets
+# as an input source (--hf-dataset flag). For CLI and CSV inputs, it's not needed.
+
+nexaai==1.0.37rc9

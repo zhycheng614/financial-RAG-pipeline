@@ -1,0 +1,3492 @@
+{
+  "source_project": "src/full_10k",
+  "output_project": "src/contextual_meta",
+  "contextual": "metadata",
+  "default_year": 2023,
+  "llm_model": null,
+  "doc_preview_chars": 6000,
+  "context_max_tokens": 120,
+  "total_chunks_written": 169640,
+  "elapsed_s": 198.7701300000772,
+  "per_doc": [
+    {
+      "mode": "metadata",
+      "doc_id": 1,
+      "ticker": "AAPL",
+      "chunks": 139,
+      "wall_clock_s": 0.3479762002825737
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 2,
+      "ticker": "ACN",
+      "chunks": 254,
+      "wall_clock_s": 0.37963599991053343
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 3,
+      "ticker": "ABT",
+      "chunks": 248,
+      "wall_clock_s": 0.34793479973450303
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 4,
+      "ticker": "ADP",
+      "chunks": 244,
+      "wall_clock_s": 0.34330489998683333
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 5,
+      "ticker": "ADI",
+      "chunks": 282,
+      "wall_clock_s": 0.36401630006730556
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 6,
+      "ticker": "ADBE",
+      "chunks": 288,
+      "wall_clock_s": 0.3463746001943946
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 7,
+      "ticker": "ABBV",
+      "chunks": 312,
+      "wall_clock_s": 0.346375800203532
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 8,
+      "ticker": "AKAM",
+      "chunks": 291,
+      "wall_clock_s": 0.3782091997563839
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 9,
+      "ticker": "ADM",
+      "chunks": 330,
+      "wall_clock_s": 0.38143690023571253
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 10,
+      "ticker": "AMAT",
+      "chunks": 201,
+      "wall_clock_s": 0.33476540027186275
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 11,
+      "ticker": "ALLE",
+      "chunks": 257,
+      "wall_clock_s": 0.33996740030124784
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 12,
+      "ticker": "A",
+      "chunks": 383,
+      "wall_clock_s": 0.3881244002841413
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 13,
+      "ticker": "ALGN",
+      "chunks": 315,
+      "wall_clock_s": 0.359740000218153
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 14,
+      "ticker": "ABNB",
+      "chunks": 486,
+      "wall_clock_s": 0.3904634998179972
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 15,
+      "ticker": "AMCR",
+      "chunks": 263,
+      "wall_clock_s": 0.417323200032115
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 16,
+      "ticker": "AME",
+      "chunks": 204,
+      "wall_clock_s": 0.341527100186795
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 17,
+      "ticker": "AMD",
+      "chunks": 288,
+      "wall_clock_s": 0.3614550996571779
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 18,
+      "ticker": "AJG",
+      "chunks": 414,
+      "wall_clock_s": 0.4037705999799073
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 19,
+      "ticker": "ADSK",
+      "chunks": 454,
+      "wall_clock_s": 0.4278100002557039
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 20,
+      "ticker": "AEE",
+      "chunks": 514,
+      "wall_clock_s": 0.4120279001072049
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 21,
+      "ticker": "AMZN",
+      "chunks": 213,
+      "wall_clock_s": 0.3289864002726972
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 22,
+      "ticker": "AIZ",
+      "chunks": 476,
+      "wall_clock_s": 0.3798291999846697
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 23,
+      "ticker": "AOS",
+      "chunks": 164,
+      "wall_clock_s": 0.32801879988983274
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 24,
+      "ticker": "AFL",
+      "chunks": 478,
+      "wall_clock_s": 0.39462759997695684
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 25,
+      "ticker": "ANSS",
+      "chunks": 242,
+      "wall_clock_s": 0.353430800139904
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 26,
+      "ticker": "ALB",
+      "chunks": 505,
+      "wall_clock_s": 0.40408220002427697
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 27,
+      "ticker": "ATO",
+      "chunks": 229,
+      "wall_clock_s": 0.4187048999592662
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 28,
+      "ticker": "AMGN",
+      "chunks": 414,
+      "wall_clock_s": 0.4195701996795833
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 29,
+      "ticker": "ANET",
+      "chunks": 371,
+      "wall_clock_s": 0.4322086996398866
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 30,
+      "ticker": "APA",
+      "chunks": 323,
+      "wall_clock_s": 0.3581071002408862
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 31,
+      "ticker": "ALL",
+      "chunks": 515,
+      "wall_clock_s": 0.40927600022405386
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 32,
+      "ticker": "APD",
+      "chunks": 317,
+      "wall_clock_s": 0.3710354003123939
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 33,
+      "ticker": "AVB",
+      "chunks": 284,
+      "wall_clock_s": 0.3539601000957191
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 34,
+      "ticker": "APH",
+      "chunks": 338,
+      "wall_clock_s": 0.38363449973985553
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 35,
+      "ticker": "APTV",
+      "chunks": 357,
+      "wall_clock_s": 0.4185118000023067
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 36,
+      "ticker": "AON",
+      "chunks": 342,
+      "wall_clock_s": 0.3494738000445068
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 37,
+      "ticker": "AVGO",
+      "chunks": 293,
+      "wall_clock_s": 0.352169600315392
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 38,
+      "ticker": "AVY",
+      "chunks": 250,
+      "wall_clock_s": 0.38887380016967654
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 39,
+      "ticker": "AAL",
+      "chunks": 603,
+      "wall_clock_s": 0.47769790003076196
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 40,
+      "ticker": "AMT",
+      "chunks": 443,
+      "wall_clock_s": 0.4282613000832498
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 41,
+      "ticker": "ACGL",
+      "chunks": 648,
+      "wall_clock_s": 0.44177479995414615
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 42,
+      "ticker": "AZO",
+      "chunks": 204,
+      "wall_clock_s": 0.3602402997203171
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 43,
+      "ticker": "BBY",
+      "chunks": 214,
+      "wall_clock_s": 0.3942682002671063
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 44,
+      "ticker": "BK",
+      "chunks": 40,
+      "wall_clock_s": 0.31966179981827736
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 45,
+      "ticker": "AXON",
+      "chunks": 271,
+      "wall_clock_s": 0.3744884002953768
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 46,
+      "ticker": "BBWI",
+      "chunks": 228,
+      "wall_clock_s": 0.42057819990441203
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 47,
+      "ticker": "AMP",
+      "chunks": 496,
+      "wall_clock_s": 0.4282507998868823
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 48,
+      "ticker": "BALL",
+      "chunks": 242,
+      "wall_clock_s": 0.3439226998016238
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 49,
+      "ticker": "BDX",
+      "chunks": 265,
+      "wall_clock_s": 0.3474388998001814
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 50,
+      "ticker": "BF-B",
+      "chunks": 222,
+      "wall_clock_s": 0.3403202001936734
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 51,
+      "ticker": "ARE",
+      "chunks": 583,
+      "wall_clock_s": 0.5244793999008834
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 52,
+      "ticker": "AES",
+      "chunks": 588,
+      "wall_clock_s": 0.6437520002946258
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 53,
+      "ticker": "BIO",
+      "chunks": 216,
+      "wall_clock_s": 0.36661829985678196
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 54,
+      "ticker": "BLDR",
+      "chunks": 236,
+      "wall_clock_s": 0.4128832002170384
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 55,
+      "ticker": "BEN",
+      "chunks": 288,
+      "wall_clock_s": 0.3606805996969342
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 56,
+      "ticker": "BA",
+      "chunks": 296,
+      "wall_clock_s": 0.3640644997358322
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 57,
+      "ticker": "BKR",
+      "chunks": 285,
+      "wall_clock_s": 0.4502960997633636
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 58,
+      "ticker": "BG",
+      "chunks": 383,
+      "wall_clock_s": 0.3869755999185145
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 59,
+      "ticker": "BKNG",
+      "chunks": 335,
+      "wall_clock_s": 0.3656235998496413
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 60,
+      "ticker": "BR",
+      "chunks": 262,
+      "wall_clock_s": 0.3624033001251519
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 61,
+      "ticker": "BRO",
+      "chunks": 297,
+      "wall_clock_s": 0.35029720002785325
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 62,
+      "ticker": "AXP",
+      "chunks": 435,
+      "wall_clock_s": 0.3819096996448934
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 63,
+      "ticker": "BLK",
+      "chunks": 428,
+      "wall_clock_s": 0.45596509985625744
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 64,
+      "ticker": "BAX",
+      "chunks": 434,
+      "wall_clock_s": 0.3681804998777807
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 65,
+      "ticker": "AWK",
+      "chunks": 490,
+      "wall_clock_s": 0.4298419002443552
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 66,
+      "ticker": "CAG",
+      "chunks": 266,
+      "wall_clock_s": 0.3784040999598801
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 67,
+      "ticker": "BWA",
+      "chunks": 309,
+      "wall_clock_s": 0.38277560006827116
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 68,
+      "ticker": "BIIB",
+      "chunks": 470,
+      "wall_clock_s": 0.4454852999188006
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 69,
+      "ticker": "CARR",
+      "chunks": 306,
+      "wall_clock_s": 0.3707273001782596
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 70,
+      "ticker": "BSX",
+      "chunks": 387,
+      "wall_clock_s": 0.37799180019646883
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 71,
+      "ticker": "BRK-B",
+      "chunks": 402,
+      "wall_clock_s": 0.43574290024116635
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 72,
+      "ticker": "CAH",
+      "chunks": 321,
+      "wall_clock_s": 0.42890960024669766
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 73,
+      "ticker": "BAC",
+      "chunks": 636,
+      "wall_clock_s": 0.5760007998906076
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 74,
+      "ticker": "CCI",
+      "chunks": 279,
+      "wall_clock_s": 0.37932270020246506
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 75,
+      "ticker": "BMY",
+      "chunks": 421,
+      "wall_clock_s": 0.37280539982020855
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 76,
+      "ticker": "CAT",
+      "chunks": 328,
+      "wall_clock_s": 0.4000854999758303
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 77,
+      "ticker": "CDW",
+      "chunks": 216,
+      "wall_clock_s": 0.34755480010062456
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 78,
+      "ticker": "CCL",
+      "chunks": 250,
+      "wall_clock_s": 0.36678249994292855
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 79,
+      "ticker": "CHRW",
+      "chunks": 206,
+      "wall_clock_s": 0.35921020014211535
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 80,
+      "ticker": "CLX",
+      "chunks": 128,
+      "wall_clock_s": 0.329248100053519
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 81,
+      "ticker": "CDNS",
+      "chunks": 294,
+      "wall_clock_s": 0.3552116001956165
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 82,
+      "ticker": "CBRE",
+      "chunks": 330,
+      "wall_clock_s": 0.37351710023358464
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 83,
+      "ticker": "CE",
+      "chunks": 282,
+      "wall_clock_s": 0.3583264001645148
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 84,
+      "ticker": "CHD",
+      "chunks": 272,
+      "wall_clock_s": 0.3724428000859916
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 85,
+      "ticker": "CMG",
+      "chunks": 163,
+      "wall_clock_s": 0.36175959976390004
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 86,
+      "ticker": "BXP",
+      "chunks": 534,
+      "wall_clock_s": 0.4379396000877023
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 87,
+      "ticker": "CL",
+      "chunks": 263,
+      "wall_clock_s": 0.4195690001361072
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 88,
+      "ticker": "CHTR",
+      "chunks": 362,
+      "wall_clock_s": 0.37583249993622303
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 89,
+      "ticker": "CMCSA",
+      "chunks": 286,
+      "wall_clock_s": 0.36660420009866357
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 90,
+      "ticker": "CME",
+      "chunks": 288,
+      "wall_clock_s": 0.365015999879688
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 91,
+      "ticker": "CF",
+      "chunks": 393,
+      "wall_clock_s": 0.37702890019863844
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 92,
+      "ticker": "CFG",
+      "chunks": 383,
+      "wall_clock_s": 0.378973999992013
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 93,
+      "ticker": "CBOE",
+      "chunks": 471,
+      "wall_clock_s": 0.4261596002615988
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 94,
+      "ticker": "COST",
+      "chunks": 168,
+      "wall_clock_s": 0.33714189985767007
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 95,
+      "ticker": "COO",
+      "chunks": 240,
+      "wall_clock_s": 0.35796339996159077
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 96,
+      "ticker": "COR",
+      "chunks": 277,
+      "wall_clock_s": 0.36272830003872514
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 97,
+      "ticker": "CPT",
+      "chunks": 186,
+      "wall_clock_s": 0.3669472998008132
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 98,
+      "ticker": "CNC",
+      "chunks": 352,
+      "wall_clock_s": 0.3619118998758495
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 99,
+      "ticker": "CPB",
+      "chunks": 236,
+      "wall_clock_s": 0.3645847998559475
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 100,
+      "ticker": "CMI",
+      "chunks": 342,
+      "wall_clock_s": 0.3953857999294996
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 101,
+      "ticker": "AEP",
+      "chunks": 802,
+      "wall_clock_s": 0.7746597998775542
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 102,
+      "ticker": "CPRT",
+      "chunks": 242,
+      "wall_clock_s": 0.3677468001842499
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 103,
+      "ticker": "AIG",
+      "chunks": 893,
+      "wall_clock_s": 0.485423699952662
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 104,
+      "ticker": "CRL",
+      "chunks": 327,
+      "wall_clock_s": 0.38646870013326406
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 105,
+      "ticker": "CINF",
+      "chunks": 416,
+      "wall_clock_s": 0.39728960022330284
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 106,
+      "ticker": "BX",
+      "chunks": 684,
+      "wall_clock_s": 0.4714669999666512
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 107,
+      "ticker": "CTAS",
+      "chunks": 184,
+      "wall_clock_s": 0.34698030026629567
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 108,
+      "ticker": "CRM",
+      "chunks": 297,
+      "wall_clock_s": 0.40832530008628964
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 109,
+      "ticker": "CPAY",
+      "chunks": 386,
+      "wall_clock_s": 0.43616299983114004
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 110,
+      "ticker": "CSX",
+      "chunks": 194,
+      "wall_clock_s": 0.36155749997124076
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 111,
+      "ticker": "CI",
+      "chunks": 517,
+      "wall_clock_s": 0.4156192997470498
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 112,
+      "ticker": "CSGP",
+      "chunks": 296,
+      "wall_clock_s": 0.3848787001334131
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 113,
+      "ticker": "CMS",
+      "chunks": 342,
+      "wall_clock_s": 0.3745632003992796
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 114,
+      "ticker": "CEG",
+      "chunks": 506,
+      "wall_clock_s": 0.4190016002394259
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 115,
+      "ticker": "COP",
+      "chunks": 373,
+      "wall_clock_s": 0.39364790031686425
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 116,
+      "ticker": "CTSH",
+      "chunks": 248,
+      "wall_clock_s": 0.3460907000117004
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 117,
+      "ticker": "CSCO",
+      "chunks": 314,
+      "wall_clock_s": 0.3718252000398934
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 118,
+      "ticker": "CB",
+      "chunks": 607,
+      "wall_clock_s": 0.4381493995897472
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 119,
+      "ticker": "CTRA",
+      "chunks": 290,
+      "wall_clock_s": 0.40758700016885996
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 120,
+      "ticker": "CTLT",
+      "chunks": 371,
+      "wall_clock_s": 0.455885199829936
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 121,
+      "ticker": "CRWD",
+      "chunks": 375,
+      "wall_clock_s": 0.37107819970697165
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 122,
+      "ticker": "DAY",
+      "chunks": 255,
+      "wall_clock_s": 0.35681619960814714
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 123,
+      "ticker": "DAL",
+      "chunks": 261,
+      "wall_clock_s": 0.3662315998226404
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 124,
+      "ticker": "CZR",
+      "chunks": 325,
+      "wall_clock_s": 0.3638109997846186
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 125,
+      "ticker": "COF",
+      "chunks": 516,
+      "wall_clock_s": 0.3911822000518441
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 126,
+      "ticker": "DLTR",
+      "chunks": 207,
+      "wall_clock_s": 0.36818729992955923
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 127,
+      "ticker": "DG",
+      "chunks": 226,
+      "wall_clock_s": 0.33467420004308224
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 128,
+      "ticker": "DECK",
+      "chunks": 294,
+      "wall_clock_s": 0.35191759979352355
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 129,
+      "ticker": "CVX",
+      "chunks": 357,
+      "wall_clock_s": 0.39995390037074685
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 130,
+      "ticker": "DD",
+      "chunks": 334,
+      "wall_clock_s": 0.392416600137949
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 131,
+      "ticker": "DE",
+      "chunks": 302,
+      "wall_clock_s": 0.38388160010799766
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 132,
+      "ticker": "DHI",
+      "chunks": 260,
+      "wall_clock_s": 0.3473898000083864
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 133,
+      "ticker": "DGX",
+      "chunks": 325,
+      "wall_clock_s": 0.4315289999358356
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 134,
+      "ticker": "DRI",
+      "chunks": 230,
+      "wall_clock_s": 0.48141590040177107
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 135,
+      "ticker": "DIS",
+      "chunks": 314,
+      "wall_clock_s": 0.3983724000863731
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 136,
+      "ticker": "DOV",
+      "chunks": 285,
+      "wall_clock_s": 0.37925300002098083
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 137,
+      "ticker": "CTVA",
+      "chunks": 471,
+      "wall_clock_s": 0.405893299728632
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 138,
+      "ticker": "DVN",
+      "chunks": 224,
+      "wall_clock_s": 0.34453759994357824
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 139,
+      "ticker": "C",
+      "chunks": 841,
+      "wall_clock_s": 0.5089002000167966
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 140,
+      "ticker": "DHR",
+      "chunks": 401,
+      "wall_clock_s": 0.3728721998631954
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 141,
+      "ticker": "DPZ",
+      "chunks": 297,
+      "wall_clock_s": 0.37470689974725246
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 142,
+      "ticker": "DFS",
+      "chunks": 425,
+      "wall_clock_s": 0.3954436997883022
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 143,
+      "ticker": "EA",
+      "chunks": 208,
+      "wall_clock_s": 0.37133280001580715
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 144,
+      "ticker": "DOC",
+      "chunks": 413,
+      "wall_clock_s": 0.4793425998650491
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 145,
+      "ticker": "DLR",
+      "chunks": 391,
+      "wall_clock_s": 0.5053571001626551
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 146,
+      "ticker": "DOW",
+      "chunks": 371,
+      "wall_clock_s": 0.5039693000726402
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 147,
+      "ticker": "CNP",
+      "chunks": 584,
+      "wall_clock_s": 0.5108567997813225
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 148,
+      "ticker": "EBAY",
+      "chunks": 300,
+      "wall_clock_s": 0.36087309988215566
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 149,
+      "ticker": "EFX",
+      "chunks": 306,
+      "wall_clock_s": 0.38795340014621615
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 150,
+      "ticker": "DTE",
+      "chunks": 383,
+      "wall_clock_s": 0.3672744003124535
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 151,
+      "ticker": "ECL",
+      "chunks": 318,
+      "wall_clock_s": 0.34878480015322566
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 152,
+      "ticker": "EMR",
+      "chunks": 222,
+      "wall_clock_s": 0.3472329000942409
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 153,
+      "ticker": "EMN",
+      "chunks": 271,
+      "wall_clock_s": 0.36106690019369125
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 154,
+      "ticker": "DVA",
+      "chunks": 453,
+      "wall_clock_s": 0.3905575997196138
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 155,
+      "ticker": "DXCM",
+      "chunks": 438,
+      "wall_clock_s": 0.42001459980383515
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 156,
+      "ticker": "EPAM",
+      "chunks": 271,
+      "wall_clock_s": 0.41521820006892085
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 157,
+      "ticker": "EOG",
+      "chunks": 298,
+      "wall_clock_s": 0.34910349966958165
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 158,
+      "ticker": "ENPH",
+      "chunks": 322,
+      "wall_clock_s": 0.35860140016302466
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 159,
+      "ticker": "ETN",
+      "chunks": 202,
+      "wall_clock_s": 0.36126120015978813
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 160,
+      "ticker": "EL",
+      "chunks": 355,
+      "wall_clock_s": 0.36030910024419427
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 161,
+      "ticker": "EXPD",
+      "chunks": 169,
+      "wall_clock_s": 0.3389509995467961
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 162,
+      "ticker": "EG",
+      "chunks": 392,
+      "wall_clock_s": 0.39518600003793836
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 163,
+      "ticker": "ESS",
+      "chunks": 302,
+      "wall_clock_s": 0.3606030000373721
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 164,
+      "ticker": "EQIX",
+      "chunks": 345,
+      "wall_clock_s": 0.376001900061965
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 165,
+      "ticker": "EQT",
+      "chunks": 359,
+      "wall_clock_s": 0.4127221000380814
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 166,
+      "ticker": "EW",
+      "chunks": 261,
+      "wall_clock_s": 0.3736029998399317
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 167,
+      "ticker": "EXR",
+      "chunks": 195,
+      "wall_clock_s": 0.37773780012503266
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 168,
+      "ticker": "CVS",
+      "chunks": 685,
+      "wall_clock_s": 0.5473475996404886
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 169,
+      "ticker": "ELV",
+      "chunks": 460,
+      "wall_clock_s": 0.3985802000388503
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 170,
+      "ticker": "EQR",
+      "chunks": 339,
+      "wall_clock_s": 0.3791104000993073
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 171,
+      "ticker": "FAST",
+      "chunks": 220,
+      "wall_clock_s": 0.3703312003053725
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 172,
+      "ticker": "EXPE",
+      "chunks": 334,
+      "wall_clock_s": 0.39795529982075095
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 173,
+      "ticker": "ETSY",
+      "chunks": 398,
+      "wall_clock_s": 0.3970932001248002
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 174,
+      "ticker": "ED",
+      "chunks": 481,
+      "wall_clock_s": 0.417223600205034
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 175,
+      "ticker": "FDS",
+      "chunks": 265,
+      "wall_clock_s": 0.36771140014752746
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 176,
+      "ticker": "FFIV",
+      "chunks": 237,
+      "wall_clock_s": 0.34278689976781607
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 177,
+      "ticker": "FICO",
+      "chunks": 266,
+      "wall_clock_s": 0.3764361999928951
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 178,
+      "ticker": "EIX",
+      "chunks": 480,
+      "wall_clock_s": 0.4039302999153733
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 179,
+      "ticker": "FRT",
+      "chunks": 257,
+      "wall_clock_s": 0.4099829001352191
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 180,
+      "ticker": "D",
+      "chunks": 658,
+      "wall_clock_s": 0.513126399833709
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 181,
+      "ticker": "FOX",
+      "chunks": 258,
+      "wall_clock_s": 0.3510413998737931
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 182,
+      "ticker": "FI",
+      "chunks": 337,
+      "wall_clock_s": 0.35167880030348897
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 183,
+      "ticker": "DUK",
+      "chunks": 714,
+      "wall_clock_s": 0.47022070037201047
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 184,
+      "ticker": "F",
+      "chunks": 402,
+      "wall_clock_s": 0.4186022002249956
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 185,
+      "ticker": "FIS",
+      "chunks": 343,
+      "wall_clock_s": 0.3921914999373257
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 186,
+      "ticker": "FMC",
+      "chunks": 343,
+      "wall_clock_s": 0.42056100023910403
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 187,
+      "ticker": "FANG",
+      "chunks": 447,
+      "wall_clock_s": 0.3973486996255815
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 188,
+      "ticker": "FSLR",
+      "chunks": 307,
+      "wall_clock_s": 0.37105519976466894
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 189,
+      "ticker": "FDX",
+      "chunks": 408,
+      "wall_clock_s": 0.4034003000706434
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 190,
+      "ticker": "ES",
+      "chunks": 566,
+      "wall_clock_s": 0.6272495999000967
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 191,
+      "ticker": "GIS",
+      "chunks": 209,
+      "wall_clock_s": 0.46132339956238866
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 192,
+      "ticker": "GD",
+      "chunks": 214,
+      "wall_clock_s": 0.4236190998926759
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 193,
+      "ticker": "FCX",
+      "chunks": 476,
+      "wall_clock_s": 0.5874763000756502
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 194,
+      "ticker": "GEN",
+      "chunks": 256,
+      "wall_clock_s": 0.46787940012291074
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 195,
+      "ticker": "GE",
+      "chunks": 319,
+      "wall_clock_s": 0.5643727001734078
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 196,
+      "ticker": "EVRG",
+      "chunks": 430,
+      "wall_clock_s": 0.6072923000901937
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 197,
+      "ticker": "FTV",
+      "chunks": 296,
+      "wall_clock_s": 0.49912359984591603
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 198,
+      "ticker": "GILD",
+      "chunks": 296,
+      "wall_clock_s": 0.47065329970791936
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 199,
+      "ticker": "FTNT",
+      "chunks": 379,
+      "wall_clock_s": 0.5617563999257982
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 200,
+      "ticker": "GOOG",
+      "chunks": 230,
+      "wall_clock_s": 0.3956565000116825
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 201,
+      "ticker": "GPC",
+      "chunks": 208,
+      "wall_clock_s": 0.4068930000066757
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 202,
+      "ticker": "GWW",
+      "chunks": 162,
+      "wall_clock_s": 0.3323846999555826
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 203,
+      "ticker": "GLW",
+      "chunks": 243,
+      "wall_clock_s": 0.40216660033911467
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 204,
+      "ticker": "HAL",
+      "chunks": 185,
+      "wall_clock_s": 0.36183790024369955
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 205,
+      "ticker": "GNRC",
+      "chunks": 281,
+      "wall_clock_s": 0.3956623002886772
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 206,
+      "ticker": "GRMN",
+      "chunks": 213,
+      "wall_clock_s": 0.339294099714607
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 207,
+      "ticker": "FE",
+      "chunks": 524,
+      "wall_clock_s": 0.42991109983995557
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 208,
+      "ticker": "GEHC",
+      "chunks": 388,
+      "wall_clock_s": 0.3733581001870334
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 209,
+      "ticker": "GM",
+      "chunks": 309,
+      "wall_clock_s": 0.37655579997226596
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 210,
+      "ticker": "GDDY",
+      "chunks": 399,
+      "wall_clock_s": 0.41272749984636903
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 211,
+      "ticker": "HD",
+      "chunks": 219,
+      "wall_clock_s": 0.3597329999320209
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 212,
+      "ticker": "HRL",
+      "chunks": 232,
+      "wall_clock_s": 0.3587182001210749
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 213,
+      "ticker": "GL",
+      "chunks": 321,
+      "wall_clock_s": 0.39857179997488856
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 214,
+      "ticker": "GPN",
+      "chunks": 363,
+      "wall_clock_s": 0.35939549980685115
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 215,
+      "ticker": "HON",
+      "chunks": 280,
+      "wall_clock_s": 0.356292299926281
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 216,
+      "ticker": "HES",
+      "chunks": 309,
+      "wall_clock_s": 0.4071992002427578
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 217,
+      "ticker": "IBM",
+      "chunks": 79,
+      "wall_clock_s": 0.3536391998641193
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 218,
+      "ticker": "FITB",
+      "chunks": 634,
+      "wall_clock_s": 0.4993480001576245
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 219,
+      "ticker": "HPQ",
+      "chunks": 295,
+      "wall_clock_s": 0.46319530019536614
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 220,
+      "ticker": "HLT",
+      "chunks": 332,
+      "wall_clock_s": 0.3894351003691554
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 221,
+      "ticker": "HII",
+      "chunks": 341,
+      "wall_clock_s": 0.3597482996992767
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 222,
+      "ticker": "HAS",
+      "chunks": 400,
+      "wall_clock_s": 0.4113735998980701
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 223,
+      "ticker": "HOLX",
+      "chunks": 349,
+      "wall_clock_s": 0.37619350012391806
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 224,
+      "ticker": "HCA",
+      "chunks": 398,
+      "wall_clock_s": 0.41343169985339046
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 225,
+      "ticker": "HSIC",
+      "chunks": 306,
+      "wall_clock_s": 0.39936230005696416
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 226,
+      "ticker": "HSY",
+      "chunks": 242,
+      "wall_clock_s": 0.35237300023436546
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 227,
+      "ticker": "HST",
+      "chunks": 323,
+      "wall_clock_s": 0.35345029970631003
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 228,
+      "ticker": "HUBB",
+      "chunks": 251,
+      "wall_clock_s": 0.35514429956674576
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 229,
+      "ticker": "HBAN",
+      "chunks": 412,
+      "wall_clock_s": 0.46881929971277714
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 230,
+      "ticker": "IEX",
+      "chunks": 198,
+      "wall_clock_s": 0.3413149998523295
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 231,
+      "ticker": "HWM",
+      "chunks": 274,
+      "wall_clock_s": 0.36176310013979673
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 232,
+      "ticker": "INTC",
+      "chunks": 327,
+      "wall_clock_s": 0.4470732999034226
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 233,
+      "ticker": "IFF",
+      "chunks": 341,
+      "wall_clock_s": 0.3762694001197815
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 234,
+      "ticker": "IP",
+      "chunks": 277,
+      "wall_clock_s": 0.3453388996422291
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 235,
+      "ticker": "HPE",
+      "chunks": 474,
+      "wall_clock_s": 0.40534890023991466
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 236,
+      "ticker": "INTU",
+      "chunks": 313,
+      "wall_clock_s": 0.36275790026411414
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 237,
+      "ticker": "IR",
+      "chunks": 296,
+      "wall_clock_s": 0.35652870032936335
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 238,
+      "ticker": "JBHT",
+      "chunks": 134,
+      "wall_clock_s": 0.3327383999712765
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 239,
+      "ticker": "INVH",
+      "chunks": 352,
+      "wall_clock_s": 0.40401289984583855
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 240,
+      "ticker": "IQV",
+      "chunks": 313,
+      "wall_clock_s": 0.41600249987095594
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 241,
+      "ticker": "IDXX",
+      "chunks": 362,
+      "wall_clock_s": 0.37840750021860003
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 242,
+      "ticker": "HUM",
+      "chunks": 380,
+      "wall_clock_s": 0.47988259978592396
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 243,
+      "ticker": "IPG",
+      "chunks": 297,
+      "wall_clock_s": 0.5067905001342297
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 244,
+      "ticker": "IT",
+      "chunks": 231,
+      "wall_clock_s": 0.422635399736464
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 245,
+      "ticker": "ITW",
+      "chunks": 224,
+      "wall_clock_s": 0.3489628997631371
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 246,
+      "ticker": "IVZ",
+      "chunks": 257,
+      "wall_clock_s": 0.3694190001115203
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 247,
+      "ticker": "ICE",
+      "chunks": 432,
+      "wall_clock_s": 0.4034791002050042
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 248,
+      "ticker": "IRM",
+      "chunks": 331,
+      "wall_clock_s": 0.4126649000681937
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 249,
+      "ticker": "JKHY",
+      "chunks": 181,
+      "wall_clock_s": 0.37729800026863813
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 250,
+      "ticker": "INCY",
+      "chunks": 405,
+      "wall_clock_s": 0.4199617002159357
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 251,
+      "ticker": "HIG",
+      "chunks": 603,
+      "wall_clock_s": 0.42862380016595125
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 252,
+      "ticker": "JBL",
+      "chunks": 245,
+      "wall_clock_s": 0.361672000028193
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 253,
+      "ticker": "EXC",
+      "chunks": 632,
+      "wall_clock_s": 0.4353672000579536
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 254,
+      "ticker": "JNJ",
+      "chunks": 281,
+      "wall_clock_s": 0.43270740006119013
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 255,
+      "ticker": "KDP",
+      "chunks": 252,
+      "wall_clock_s": 0.3516244003549218
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 256,
+      "ticker": "J",
+      "chunks": 356,
+      "wall_clock_s": 0.3713020998984575
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 257,
+      "ticker": "KMB",
+      "chunks": 201,
+      "wall_clock_s": 0.35971869993954897
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 258,
+      "ticker": "JNPR",
+      "chunks": 315,
+      "wall_clock_s": 0.3544366001151502
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 259,
+      "ticker": "KEYS",
+      "chunks": 297,
+      "wall_clock_s": 0.35765849985182285
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 260,
+      "ticker": "JCI",
+      "chunks": 354,
+      "wall_clock_s": 0.37687329994514585
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 261,
+      "ticker": "KMX",
+      "chunks": 247,
+      "wall_clock_s": 0.3549038004130125
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 262,
+      "ticker": "K",
+      "chunks": 315,
+      "wall_clock_s": 0.3737231995910406
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 263,
+      "ticker": "ISRG",
+      "chunks": 491,
+      "wall_clock_s": 0.42872670013457537
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 264,
+      "ticker": "KIM",
+      "chunks": 374,
+      "wall_clock_s": 0.39234849996864796
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 265,
+      "ticker": "KLAC",
+      "chunks": 368,
+      "wall_clock_s": 0.3779120999388397
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 266,
+      "ticker": "KR",
+      "chunks": 262,
+      "wall_clock_s": 0.35191249987110496
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 267,
+      "ticker": "KHC",
+      "chunks": 360,
+      "wall_clock_s": 0.448798400349915
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 268,
+      "ticker": "LEN",
+      "chunks": 325,
+      "wall_clock_s": 0.3735924996435642
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 269,
+      "ticker": "LOW",
+      "chunks": 199,
+      "wall_clock_s": 0.3438190002925694
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 270,
+      "ticker": "KMI",
+      "chunks": 369,
+      "wall_clock_s": 0.3927001003175974
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 271,
+      "ticker": "LDOS",
+      "chunks": 323,
+      "wall_clock_s": 0.3584632999263704
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 272,
+      "ticker": "LIN",
+      "chunks": 247,
+      "wall_clock_s": 0.379258899949491
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 273,
+      "ticker": "LHX",
+      "chunks": 327,
+      "wall_clock_s": 0.4059644998051226
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 274,
+      "ticker": "LRCX",
+      "chunks": 266,
+      "wall_clock_s": 0.3779385997913778
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 275,
+      "ticker": "LH",
+      "chunks": 362,
+      "wall_clock_s": 0.39650070015341043
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 276,
+      "ticker": "KO",
+      "chunks": 463,
+      "wall_clock_s": 0.43587819999083877
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 277,
+      "ticker": "LMT",
+      "chunks": 332,
+      "wall_clock_s": 0.36259219981729984
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 278,
+      "ticker": "LULU",
+      "chunks": 238,
+      "wall_clock_s": 0.3380058999173343
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 279,
+      "ticker": "LKQ",
+      "chunks": 337,
+      "wall_clock_s": 0.412979600019753
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 280,
+      "ticker": "LLY",
+      "chunks": 313,
+      "wall_clock_s": 0.464473900385201
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 281,
+      "ticker": "LNT",
+      "chunks": 378,
+      "wall_clock_s": 0.40146700013428926
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 282,
+      "ticker": "LW",
+      "chunks": 242,
+      "wall_clock_s": 0.3705678000114858
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 283,
+      "ticker": "MAS",
+      "chunks": 159,
+      "wall_clock_s": 0.3689446998760104
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 284,
+      "ticker": "LYV",
+      "chunks": 267,
+      "wall_clock_s": 0.36249039974063635
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 285,
+      "ticker": "MCD",
+      "chunks": 182,
+      "wall_clock_s": 0.3344529001042247
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 286,
+      "ticker": "MAR",
+      "chunks": 209,
+      "wall_clock_s": 0.34735519997775555
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 287,
+      "ticker": "MA",
+      "chunks": 309,
+      "wall_clock_s": 0.36511100037023425
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 288,
+      "ticker": "KVUE",
+      "chunks": 472,
+      "wall_clock_s": 0.4255775003693998
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 289,
+      "ticker": "KEY",
+      "chunks": 554,
+      "wall_clock_s": 0.43342680018395185
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 290,
+      "ticker": "MAA",
+      "chunks": 325,
+      "wall_clock_s": 0.3600423000752926
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 291,
+      "ticker": "L",
+      "chunks": 457,
+      "wall_clock_s": 0.3853656998835504
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 292,
+      "ticker": "LYB",
+      "chunks": 315,
+      "wall_clock_s": 0.4860382000915706
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 293,
+      "ticker": "MCO",
+      "chunks": 285,
+      "wall_clock_s": 0.525233100168407
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 294,
+      "ticker": "MCHP",
+      "chunks": 310,
+      "wall_clock_s": 0.5120027996599674
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 295,
+      "ticker": "MDT",
+      "chunks": 323,
+      "wall_clock_s": 0.37676910031586885
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 296,
+      "ticker": "MHK",
+      "chunks": 216,
+      "wall_clock_s": 0.3463804996572435
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 297,
+      "ticker": "MKC",
+      "chunks": 274,
+      "wall_clock_s": 0.34762590005993843
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 298,
+      "ticker": "MCK",
+      "chunks": 366,
+      "wall_clock_s": 0.36215259972959757
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 299,
+      "ticker": "MKTX",
+      "chunks": 291,
+      "wall_clock_s": 0.37250199960544705
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 300,
+      "ticker": "MGM",
+      "chunks": 334,
+      "wall_clock_s": 0.36182160023599863
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 301,
+      "ticker": "LVS",
+      "chunks": 439,
+      "wall_clock_s": 0.37210489995777607
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 302,
+      "ticker": "MDLZ",
+      "chunks": 350,
+      "wall_clock_s": 0.38520359992980957
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 303,
+      "ticker": "LUV",
+      "chunks": 458,
+      "wall_clock_s": 0.4039394003339112
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 304,
+      "ticker": "MO",
+      "chunks": 338,
+      "wall_clock_s": 0.4092381000518799
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 305,
+      "ticker": "MOH",
+      "chunks": 272,
+      "wall_clock_s": 0.40998470038175583
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 306,
+      "ticker": "META",
+      "chunks": 405,
+      "wall_clock_s": 0.3822544002905488
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 307,
+      "ticker": "MPWR",
+      "chunks": 226,
+      "wall_clock_s": 0.36923120031133294
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 308,
+      "ticker": "MNST",
+      "chunks": 317,
+      "wall_clock_s": 0.4202101998962462
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 309,
+      "ticker": "MLM",
+      "chunks": 346,
+      "wall_clock_s": 0.36625529965385795
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 310,
+      "ticker": "MRO",
+      "chunks": 284,
+      "wall_clock_s": 0.3658255999907851
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 311,
+      "ticker": "MMC",
+      "chunks": 372,
+      "wall_clock_s": 0.42097670026123524
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 312,
+      "ticker": "MMM",
+      "chunks": 397,
+      "wall_clock_s": 0.44258789997547865
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 313,
+      "ticker": "MSCI",
+      "chunks": 300,
+      "wall_clock_s": 0.4008584003895521
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 314,
+      "ticker": "MTD",
+      "chunks": 213,
+      "wall_clock_s": 0.43882410041987896
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 315,
+      "ticker": "MTCH",
+      "chunks": 239,
+      "wall_clock_s": 0.3622081996873021
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 316,
+      "ticker": "MSFT",
+      "chunks": 279,
+      "wall_clock_s": 0.4080455000512302
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 317,
+      "ticker": "MU",
+      "chunks": 235,
+      "wall_clock_s": 0.3658525003120303
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 318,
+      "ticker": "MRK",
+      "chunks": 413,
+      "wall_clock_s": 0.45983669999986887
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 319,
+      "ticker": "MSI",
+      "chunks": 345,
+      "wall_clock_s": 0.37034029979258776
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 320,
+      "ticker": "NDSN",
+      "chunks": 217,
+      "wall_clock_s": 0.33781390031799674
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 321,
+      "ticker": "NFLX",
+      "chunks": 174,
+      "wall_clock_s": 0.3399081998504698
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 322,
+      "ticker": "MRNA",
+      "chunks": 439,
+      "wall_clock_s": 0.4026087997481227
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 323,
+      "ticker": "MPC",
+      "chunks": 382,
+      "wall_clock_s": 0.3943457999266684
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 324,
+      "ticker": "NOW",
+      "chunks": 218,
+      "wall_clock_s": 0.36592879984527826
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 325,
+      "ticker": "NOC",
+      "chunks": 256,
+      "wall_clock_s": 0.3857946000061929
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 326,
+      "ticker": "NSC",
+      "chunks": 205,
+      "wall_clock_s": 0.38341020001098514
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 327,
+      "ticker": "NKE",
+      "chunks": 273,
+      "wall_clock_s": 0.38423699978739023
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 328,
+      "ticker": "NCLH",
+      "chunks": 372,
+      "wall_clock_s": 0.38809960009530187
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 329,
+      "ticker": "MOS",
+      "chunks": 477,
+      "wall_clock_s": 0.3784715998917818
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 330,
+      "ticker": "NTAP",
+      "chunks": 277,
+      "wall_clock_s": 0.36735930014401674
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 331,
+      "ticker": "NVR",
+      "chunks": 171,
+      "wall_clock_s": 0.3372022002004087
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 332,
+      "ticker": "GS",
+      "chunks": 934,
+      "wall_clock_s": 0.5692776995711029
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 333,
+      "ticker": "NEE",
+      "chunks": 409,
+      "wall_clock_s": 0.39307779958471656
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 334,
+      "ticker": "NVDA",
+      "chunks": 240,
+      "wall_clock_s": 0.36766930017620325
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 335,
+      "ticker": "NDAQ",
+      "chunks": 418,
+      "wall_clock_s": 0.4102769000455737
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 336,
+      "ticker": "ODFL",
+      "chunks": 168,
+      "wall_clock_s": 0.34953629970550537
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 337,
+      "ticker": "NUE",
+      "chunks": 256,
+      "wall_clock_s": 0.3448271998204291
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 338,
+      "ticker": "NI",
+      "chunks": 378,
+      "wall_clock_s": 0.3622371000237763
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 339,
+      "ticker": "O",
+      "chunks": 284,
+      "wall_clock_s": 0.3791618999093771
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 340,
+      "ticker": "NRG",
+      "chunks": 414,
+      "wall_clock_s": 0.40227779978886247
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 341,
+      "ticker": "MS",
+      "chunks": 608,
+      "wall_clock_s": 0.47004019981250167
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 342,
+      "ticker": "ORLY",
+      "chunks": 210,
+      "wall_clock_s": 0.45907439989969134
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 343,
+      "ticker": "OMC",
+      "chunks": 228,
+      "wall_clock_s": 0.469913300126791
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 344,
+      "ticker": "NXPI",
+      "chunks": 288,
+      "wall_clock_s": 0.5037778001278639
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 345,
+      "ticker": "PAYX",
+      "chunks": 224,
+      "wall_clock_s": 0.3914132001809776
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 346,
+      "ticker": "PANW",
+      "chunks": 289,
+      "wall_clock_s": 0.3721862002275884
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 347,
+      "ticker": "OTIS",
+      "chunks": 286,
+      "wall_clock_s": 0.3587459996342659
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 348,
+      "ticker": "ON",
+      "chunks": 297,
+      "wall_clock_s": 0.3579698000103235
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 349,
+      "ticker": "PCAR",
+      "chunks": 196,
+      "wall_clock_s": 0.3486083000898361
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 350,
+      "ticker": "OKE",
+      "chunks": 376,
+      "wall_clock_s": 0.42417330015450716
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 351,
+      "ticker": "MTB",
+      "chunks": 522,
+      "wall_clock_s": 0.4075509998947382
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 352,
+      "ticker": "ORCL",
+      "chunks": 340,
+      "wall_clock_s": 0.45290439995005727
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 353,
+      "ticker": "PAYC",
+      "chunks": 289,
+      "wall_clock_s": 0.3587853000499308
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 354,
+      "ticker": "NWSA",
+      "chunks": 401,
+      "wall_clock_s": 0.3716711001470685
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 355,
+      "ticker": "PGR",
+      "chunks": 168,
+      "wall_clock_s": 0.33939719991758466
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 356,
+      "ticker": "NEM",
+      "chunks": 653,
+      "wall_clock_s": 0.5183705999515951
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 357,
+      "ticker": "PARA",
+      "chunks": 314,
+      "wall_clock_s": 0.3774260003119707
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 358,
+      "ticker": "PH",
+      "chunks": 195,
+      "wall_clock_s": 0.42010080022737384
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 359,
+      "ticker": "PG",
+      "chunks": 212,
+      "wall_clock_s": 0.33424679981544614
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 360,
+      "ticker": "OXY",
+      "chunks": 379,
+      "wall_clock_s": 0.36699659982696176
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 361,
+      "ticker": "PHM",
+      "chunks": 188,
+      "wall_clock_s": 0.335988299921155
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 362,
+      "ticker": "PKG",
+      "chunks": 196,
+      "wall_clock_s": 0.34220110019668937
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 363,
+      "ticker": "PODD",
+      "chunks": 232,
+      "wall_clock_s": 0.3438167003914714
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 364,
+      "ticker": "POOL",
+      "chunks": 222,
+      "wall_clock_s": 0.3692332999780774
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 365,
+      "ticker": "PPG",
+      "chunks": 230,
+      "wall_clock_s": 0.3531295000575483
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 366,
+      "ticker": "PNR",
+      "chunks": 253,
+      "wall_clock_s": 0.35752739990130067
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 367,
+      "ticker": "PFE",
+      "chunks": 475,
+      "wall_clock_s": 0.47474219975993037
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 368,
+      "ticker": "NTRS",
+      "chunks": 591,
+      "wall_clock_s": 0.4384173001162708
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 369,
+      "ticker": "PLD",
+      "chunks": 332,
+      "wall_clock_s": 0.4319705003872514
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 370,
+      "ticker": "PEP",
+      "chunks": 327,
+      "wall_clock_s": 0.35485409991815686
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 371,
+      "ticker": "PEG",
+      "chunks": 392,
+      "wall_clock_s": 0.41028699977323413
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 372,
+      "ticker": "MET",
+      "chunks": 755,
+      "wall_clock_s": 0.5909978998824954
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 373,
+      "ticker": "PSA",
+      "chunks": 221,
+      "wall_clock_s": 0.39797870023176074
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 374,
+      "ticker": "PTC",
+      "chunks": 174,
+      "wall_clock_s": 0.3288994999602437
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 375,
+      "ticker": "JPM",
+      "chunks": 941,
+      "wall_clock_s": 0.5057617998681962
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 376,
+      "ticker": "PM",
+      "chunks": 409,
+      "wall_clock_s": 0.37727370020002127
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 377,
+      "ticker": "QRVO",
+      "chunks": 225,
+      "wall_clock_s": 0.35665359999984503
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 378,
+      "ticker": "QCOM",
+      "chunks": 331,
+      "wall_clock_s": 0.4353402000851929
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 379,
+      "ticker": "RCL",
+      "chunks": 316,
+      "wall_clock_s": 0.46006099972873926
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 380,
+      "ticker": "PYPL",
+      "chunks": 351,
+      "wall_clock_s": 0.36573219997808337
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 381,
+      "ticker": "ROK",
+      "chunks": 222,
+      "wall_clock_s": 0.33759899996221066
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 382,
+      "ticker": "PWR",
+      "chunks": 419,
+      "wall_clock_s": 0.40508960001170635
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 383,
+      "ticker": "PSX",
+      "chunks": 352,
+      "wall_clock_s": 0.3635480999946594
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 384,
+      "ticker": "ROL",
+      "chunks": 205,
+      "wall_clock_s": 0.34974849969148636
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 385,
+      "ticker": "ROST",
+      "chunks": 144,
+      "wall_clock_s": 0.3511728001758456
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 386,
+      "ticker": "ROP",
+      "chunks": 185,
+      "wall_clock_s": 0.3485187999904156
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 387,
+      "ticker": "PNW",
+      "chunks": 424,
+      "wall_clock_s": 0.42439220007508993
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 388,
+      "ticker": "RL",
+      "chunks": 356,
+      "wall_clock_s": 0.42860700003802776
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 389,
+      "ticker": "REGN",
+      "chunks": 420,
+      "wall_clock_s": 0.4331796998158097
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 390,
+      "ticker": "RMD",
+      "chunks": 347,
+      "wall_clock_s": 0.39021500013768673
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 391,
+      "ticker": "SLB",
+      "chunks": 160,
+      "wall_clock_s": 0.32983679976314306
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 392,
+      "ticker": "PCG",
+      "chunks": 607,
+      "wall_clock_s": 0.6093557998538017
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 393,
+      "ticker": "PNC",
+      "chunks": 587,
+      "wall_clock_s": 0.6860938998870552
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 394,
+      "ticker": "RVTY",
+      "chunks": 264,
+      "wall_clock_s": 0.4927050000987947
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 395,
+      "ticker": "REG",
+      "chunks": 420,
+      "wall_clock_s": 0.572411899920553
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 396,
+      "ticker": "SJM",
+      "chunks": 271,
+      "wall_clock_s": 0.4452789998613298
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 397,
+      "ticker": "PFG",
+      "chunks": 596,
+      "wall_clock_s": 0.6777284001000226
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 398,
+      "ticker": "SBAC",
+      "chunks": 302,
+      "wall_clock_s": 0.5422963001765311
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 399,
+      "ticker": "SBUX",
+      "chunks": 286,
+      "wall_clock_s": 0.5042882999405265
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 400,
+      "ticker": "SHW",
+      "chunks": 300,
+      "wall_clock_s": 0.3614469999447465
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 401,
+      "ticker": "RSG",
+      "chunks": 408,
+      "wall_clock_s": 0.3941823001950979
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 402,
+      "ticker": "SNA",
+      "chunks": 310,
+      "wall_clock_s": 0.43851849995553493
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 403,
+      "ticker": "STLD",
+      "chunks": 200,
+      "wall_clock_s": 0.34799780044704676
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 404,
+      "ticker": "RTX",
+      "chunks": 436,
+      "wall_clock_s": 0.37626180006191134
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 405,
+      "ticker": "SNPS",
+      "chunks": 302,
+      "wall_clock_s": 0.3813523999415338
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 406,
+      "ticker": "SMCI",
+      "chunks": 386,
+      "wall_clock_s": 0.36697430023923516
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 407,
+      "ticker": "SCHW",
+      "chunks": 438,
+      "wall_clock_s": 0.40045349998399615
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 408,
+      "ticker": "RJF",
+      "chunks": 516,
+      "wall_clock_s": 0.4731251001358032
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 409,
+      "ticker": "STX",
+      "chunks": 289,
+      "wall_clock_s": 0.38394710002467036
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 410,
+      "ticker": "SYK",
+      "chunks": 190,
+      "wall_clock_s": 0.3842931999824941
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 411,
+      "ticker": "RF",
+      "chunks": 529,
+      "wall_clock_s": 0.41862009977921844
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 412,
+      "ticker": "SWKS",
+      "chunks": 210,
+      "wall_clock_s": 0.3365899999625981
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 413,
+      "ticker": "SPG",
+      "chunks": 381,
+      "wall_clock_s": 0.3930043997243047
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 414,
+      "ticker": "PPL",
+      "chunks": 538,
+      "wall_clock_s": 0.48465709993615746
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 415,
+      "ticker": "STE",
+      "chunks": 338,
+      "wall_clock_s": 0.40800469974055886
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 416,
+      "ticker": "STZ",
+      "chunks": 280,
+      "wall_clock_s": 0.42887060018256307
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 417,
+      "ticker": "TGT",
+      "chunks": 138,
+      "wall_clock_s": 0.34738590009510517
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 418,
+      "ticker": "SPGI",
+      "chunks": 390,
+      "wall_clock_s": 0.36391919991001487
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 419,
+      "ticker": "TFX",
+      "chunks": 240,
+      "wall_clock_s": 0.35495520010590553
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 420,
+      "ticker": "TDY",
+      "chunks": 280,
+      "wall_clock_s": 0.36385850002989173
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 421,
+      "ticker": "TECH",
+      "chunks": 251,
+      "wall_clock_s": 0.3520434000529349
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 422,
+      "ticker": "TER",
+      "chunks": 237,
+      "wall_clock_s": 0.35427859984338284
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 423,
+      "ticker": "TEL",
+      "chunks": 228,
+      "wall_clock_s": 0.3366992003284395
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 424,
+      "ticker": "SWK",
+      "chunks": 377,
+      "wall_clock_s": 0.39518019976094365
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 425,
+      "ticker": "T",
+      "chunks": 291,
+      "wall_clock_s": 0.3713754001073539
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 426,
+      "ticker": "TJX",
+      "chunks": 217,
+      "wall_clock_s": 0.38725849986076355
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 427,
+      "ticker": "SYY",
+      "chunks": 326,
+      "wall_clock_s": 0.36224150005728006
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 428,
+      "ticker": "TDG",
+      "chunks": 351,
+      "wall_clock_s": 0.451815000269562
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 429,
+      "ticker": "TMO",
+      "chunks": 244,
+      "wall_clock_s": 0.3669215003028512
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 430,
+      "ticker": "TRMB",
+      "chunks": 248,
+      "wall_clock_s": 0.3499740003608167
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 431,
+      "ticker": "SYF",
+      "chunks": 431,
+      "wall_clock_s": 0.41522530000656843
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 432,
+      "ticker": "TPR",
+      "chunks": 283,
+      "wall_clock_s": 0.36797160003334284
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 433,
+      "ticker": "TSCO",
+      "chunks": 238,
+      "wall_clock_s": 0.4221124001778662
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 434,
+      "ticker": "TAP",
+      "chunks": 408,
+      "wall_clock_s": 0.44121119985356927
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 435,
+      "ticker": "TXN",
+      "chunks": 136,
+      "wall_clock_s": 0.3247907003387809
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 436,
+      "ticker": "TROW",
+      "chunks": 254,
+      "wall_clock_s": 0.34190410003066063
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 437,
+      "ticker": "TFC",
+      "chunks": 451,
+      "wall_clock_s": 0.4033324997872114
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 438,
+      "ticker": "TSLA",
+      "chunks": 274,
+      "wall_clock_s": 0.36914189998060465
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 439,
+      "ticker": "TYL",
+      "chunks": 217,
+      "wall_clock_s": 0.3392590000294149
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 440,
+      "ticker": "TXT",
+      "chunks": 213,
+      "wall_clock_s": 0.3343285000883043
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 441,
+      "ticker": "TT",
+      "chunks": 285,
+      "wall_clock_s": 0.37212410010397434
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 442,
+      "ticker": "TSN",
+      "chunks": 333,
+      "wall_clock_s": 0.47133840015158057
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 443,
+      "ticker": "TMUS",
+      "chunks": 393,
+      "wall_clock_s": 0.6230091000907123
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 444,
+      "ticker": "KKR",
+      "chunks": 1241,
+      "wall_clock_s": 0.5974151999689639
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 445,
+      "ticker": "USB",
+      "chunks": 112,
+      "wall_clock_s": 0.32299689995124936
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 446,
+      "ticker": "ULTA",
+      "chunks": 208,
+      "wall_clock_s": 0.3547580000013113
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 447,
+      "ticker": "UNP",
+      "chunks": 211,
+      "wall_clock_s": 0.35332070011645555
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 448,
+      "ticker": "UNH",
+      "chunks": 242,
+      "wall_clock_s": 0.3679158999584615
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 449,
+      "ticker": "TRGP",
+      "chunks": 448,
+      "wall_clock_s": 0.4057847000658512
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 450,
+      "ticker": "TTWO",
+      "chunks": 357,
+      "wall_clock_s": 0.3626212999224663
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 451,
+      "ticker": "UAL",
+      "chunks": 365,
+      "wall_clock_s": 0.36288660019636154
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 452,
+      "ticker": "UDR",
+      "chunks": 338,
+      "wall_clock_s": 0.41674079978838563
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 453,
+      "ticker": "VRSN",
+      "chunks": 173,
+      "wall_clock_s": 0.37419949984177947
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 454,
+      "ticker": "URI",
+      "chunks": 322,
+      "wall_clock_s": 0.37855909997597337
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 455,
+      "ticker": "STT",
+      "chunks": 665,
+      "wall_clock_s": 0.48044149996712804
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 456,
+      "ticker": "UBER",
+      "chunks": 465,
+      "wall_clock_s": 0.4229283998720348
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 457,
+      "ticker": "VICI",
+      "chunks": 333,
+      "wall_clock_s": 0.36120499996468425
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 458,
+      "ticker": "UPS",
+      "chunks": 317,
+      "wall_clock_s": 0.3756356001831591
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 459,
+      "ticker": "V",
+      "chunks": 316,
+      "wall_clock_s": 0.3496107002720237
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 460,
+      "ticker": "VLTO",
+      "chunks": 285,
+      "wall_clock_s": 0.34290440008044243
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 461,
+      "ticker": "VMC",
+      "chunks": 266,
+      "wall_clock_s": 0.38036830024793744
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 462,
+      "ticker": "VLO",
+      "chunks": 251,
+      "wall_clock_s": 0.3750163000077009
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 463,
+      "ticker": "WFC",
+      "chunks": 66,
+      "wall_clock_s": 0.3576656999066472
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 464,
+      "ticker": "TRV",
+      "chunks": 537,
+      "wall_clock_s": 0.40811269963160157
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 465,
+      "ticker": "VRSK",
+      "chunks": 282,
+      "wall_clock_s": 0.4331527999602258
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 466,
+      "ticker": "SRE",
+      "chunks": 632,
+      "wall_clock_s": 0.44587039994075894
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 467,
+      "ticker": "WAT",
+      "chunks": 251,
+      "wall_clock_s": 0.3728489000350237
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 468,
+      "ticker": "WAB",
+      "chunks": 248,
+      "wall_clock_s": 0.3559022000990808
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 469,
+      "ticker": "UHS",
+      "chunks": 449,
+      "wall_clock_s": 0.3848619000054896
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 470,
+      "ticker": "VTR",
+      "chunks": 401,
+      "wall_clock_s": 0.46017960039898753
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 471,
+      "ticker": "WBD",
+      "chunks": 320,
+      "wall_clock_s": 0.4169795997440815
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 472,
+      "ticker": "WMT",
+      "chunks": 292,
+      "wall_clock_s": 0.3415606003254652
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 473,
+      "ticker": "WDC",
+      "chunks": 303,
+      "wall_clock_s": 0.3848302997648716
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 474,
+      "ticker": "VZ",
+      "chunks": 380,
+      "wall_clock_s": 0.38426700001582503
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 475,
+      "ticker": "WST",
+      "chunks": 210,
+      "wall_clock_s": 0.40226659970358014
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 476,
+      "ticker": "VRTX",
+      "chunks": 443,
+      "wall_clock_s": 0.5112416003830731
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 477,
+      "ticker": "WY",
+      "chunks": 254,
+      "wall_clock_s": 0.3732139999046922
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 478,
+      "ticker": "WMB",
+      "chunks": 323,
+      "wall_clock_s": 0.3989861998707056
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 479,
+      "ticker": "WRB",
+      "chunks": 291,
+      "wall_clock_s": 0.42325699981302023
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 480,
+      "ticker": "VTRS",
+      "chunks": 495,
+      "wall_clock_s": 0.4072706000879407
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 481,
+      "ticker": "ZBRA",
+      "chunks": 231,
+      "wall_clock_s": 0.33813840011134744
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 482,
+      "ticker": "WBA",
+      "chunks": 422,
+      "wall_clock_s": 0.3925650999881327
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 483,
+      "ticker": "WM",
+      "chunks": 419,
+      "wall_clock_s": 0.39144410006701946
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 484,
+      "ticker": "WELL",
+      "chunks": 512,
+      "wall_clock_s": 0.4626342998817563
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 485,
+      "ticker": "VST",
+      "chunks": 510,
+      "wall_clock_s": 0.42251519998535514
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 486,
+      "ticker": "XOM",
+      "chunks": 275,
+      "wall_clock_s": 0.3684077998623252
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 487,
+      "ticker": "YUM",
+      "chunks": 303,
+      "wall_clock_s": 0.3775150999426842
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 488,
+      "ticker": "WYNN",
+      "chunks": 353,
+      "wall_clock_s": 0.4996060002595186
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 489,
+      "ticker": "WEC",
+      "chunks": 443,
+      "wall_clock_s": 0.5984595003537834
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 490,
+      "ticker": "XEL",
+      "chunks": 371,
+      "wall_clock_s": 0.44702630024403334
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 491,
+      "ticker": "ZTS",
+      "chunks": 336,
+      "wall_clock_s": 0.3985892003402114
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 492,
+      "ticker": "XYL",
+      "chunks": 319,
+      "wall_clock_s": 0.3947467999532819
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 493,
+      "ticker": "WTW",
+      "chunks": 437,
+      "wall_clock_s": 0.4254783997312188
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 494,
+      "ticker": "ZBH",
+      "chunks": 292,
+      "wall_clock_s": 0.3521859999746084
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 495,
+      "ticker": "ETR",
+      "chunks": 1537,
+      "wall_clock_s": 0.6043926998972893
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 496,
+      "ticker": "PRU",
+      "chunks": 1014,
+      "wall_clock_s": 0.5575287998653948
+    },
+    {
+      "mode": "metadata",
+      "doc_id": 497,
+      "ticker": "SO",
+      "chunks": 867,
+      "wall_clock_s": 0.48076239973306656
+    }
+  ]
+}

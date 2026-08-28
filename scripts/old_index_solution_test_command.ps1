@@ -1,0 +1,1 @@
+python -m main.main_query --csv random_queries_csv\Linq-AI-Research_FinDER-300-01.csv -p full_10k --column query --id-column query_id --output-csv output\index-solution-Linq-AI-Research_FinDER-300-01.csv --concurrent 10 --rerank-use-local --rerank-local-workers 10
