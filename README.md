@@ -1,6 +1,8 @@
 # financial-RAG-pipeline
 
-Reproducibility repository for **"Sustainable Hybrid Document-Routed Retrieval for Financial RAG: Resolving the Robustness–Precision Trade-off"** (*Intelligent Systems with Applications*, 2026).
+Reproducibility repository for **"Sustainable Hybrid Document-Routed Retrieval for Financial RAG: Resolving the Robustness–Precision Trade-off"** (*Intelligent Systems with Applications*, vol. 32, 200720, 2026).
+
+**Paper:** [https://doi.org/10.1016/j.iswa.2026.200720](https://doi.org/10.1016/j.iswa.2026.200720)
 
 This repository contains the full retrieval pipeline, every system compared in the paper, the fixed query splits, and the raw benchmark outputs behind each reported table.
 
@@ -168,13 +170,20 @@ python -m unittest discover tests/db_tests
 
 ## Citation
 
+If you use this code or the results, please cite the paper ([doi:10.1016/j.iswa.2026.200720](https://doi.org/10.1016/j.iswa.2026.200720)):
+
 ```bibtex
-@article{cheng2026hdrr,
-  title   = {Sustainable Hybrid Document-Routed Retrieval for Financial RAG:
-             Resolving the Robustness--Precision Trade-off},
-  author  = {Cheng, Zhiyuan and Lai, Longying and Liu, Yue},
-  journal = {Intelligent Systems with Applications},
-  year    = {2026}
+@article{CHENG2026200720,
+  title    = {Sustainable Hybrid Document-Routed Retrieval for financial RAG: Resolving the robustness-precision trade-off},
+  journal  = {Intelligent Systems with Applications},
+  volume   = {32},
+  pages    = {200720},
+  year     = {2026},
+  issn     = {2667-3053},
+  doi      = {10.1016/j.iswa.2026.200720},
+  url      = {https://www.sciencedirect.com/science/article/pii/S2667305326000943},
+  author   = {Zhiyuan Cheng and Longying Lai and Yue Liu},
+  keywords = {Retrieval-Augmented Generation, Financial document analysis, Question answering, Hybrid retrieval, Document routing, Sustainable AI, Green AI, 10-K reports}
 }
 ```
 
