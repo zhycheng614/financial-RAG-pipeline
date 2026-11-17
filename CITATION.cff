@@ -6,15 +6,21 @@ abstract: >-
   pipeline source, fixed FinDER query splits, and raw benchmark outputs for the
   six retrieval systems compared in the article.
 type: software
+version: 1.0.0
+date-released: "2026-11-16"
 license: MIT
+repository-code: "https://github.com/zhycheng614/financial-RAG-pipeline"
 authors:
   - family-names: Cheng
     given-names: Zhiyuan
+    affiliation: "Stanford University"
     orcid: "https://orcid.org/0009-0003-2845-5322"
   - family-names: Lai
     given-names: Longying
+    affiliation: "University of Rochester"
   - family-names: Liu
     given-names: Yue
+    affiliation: "Rutgers University"
 preferred-citation:
   type: article
   title: >-
@@ -29,4 +35,6 @@ preferred-citation:
     - family-names: Liu
       given-names: Yue
   journal: "Intelligent Systems with Applications"
+  volume: 32
   year: 2026
+  doi: "10.1016/j.iswa.2026.200720"

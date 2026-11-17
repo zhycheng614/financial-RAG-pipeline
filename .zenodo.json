@@ -1,0 +1,43 @@
+{
+  "title": "financial-RAG-pipeline: code and data for Hybrid Document-Routed Retrieval (HDRR)",
+  "description": "Code and data reproducing the article \"Sustainable Hybrid Document-Routed Retrieval for Financial RAG: Resolving the Robustness-Precision Trade-off\" (Intelligent Systems with Applications 32, 200720, 2026). Contains the full retrieval pipeline, every system compared in the article (CBR, SFR, HDRR, CBR+Meta, CBR+LLM-Ctx, Agentic), the five fixed 300-query FinDER splits, and the raw per-query outputs and benchmark scores behind each reported table. The 10-K corpus is public on SEC EDGAR and is not redistributed.",
+  "upload_type": "software",
+  "license": "mit",
+  "version": "1.0.0",
+  "creators": [
+    {
+      "name": "Cheng, Zhiyuan",
+      "affiliation": "Stanford University",
+      "orcid": "0009-0003-2845-5322"
+    },
+    {
+      "name": "Lai, Longying",
+      "affiliation": "University of Rochester"
+    },
+    {
+      "name": "Liu, Yue",
+      "affiliation": "Rutgers University"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1016/j.iswa.2026.200720",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1109/ICECET65726.2026.11632928",
+      "relation": "references",
+      "resource_type": "publication-conferencepaper"
+    }
+  ],
+  "keywords": [
+    "retrieval-augmented generation",
+    "financial question answering",
+    "document routing",
+    "hybrid retrieval",
+    "SEC 10-K filings",
+    "green AI",
+    "reproducibility"
+  ]
+}
