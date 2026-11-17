@@ -4,6 +4,8 @@ Reproducibility repository for **"Sustainable Hybrid Document-Routed Retrieval f
 
 **Paper:** [https://doi.org/10.1016/j.iswa.2026.200720](https://doi.org/10.1016/j.iswa.2026.200720)
 
+**Archived release:** version 1.0.0, [doi:10.5281/zenodo.24301615](https://doi.org/10.5281/zenodo.24301615) (Zenodo)
+
 This repository contains the full retrieval pipeline, every system compared in the paper, the fixed query splits, and the raw benchmark outputs behind each reported table.
 
 ---
