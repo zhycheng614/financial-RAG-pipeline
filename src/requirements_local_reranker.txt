@@ -1,8 +1,8 @@
 # Optional: local GGUF reranker backend for --rerank-use-local.
 #
-# All results in the paper were produced with this backend. Note that the
-# pinned release candidate below fetches a platform binary at build time and
-# that download currently returns HTTP 403, so the install may fail; the rest
-# of the pipeline works without it. Use --rerank-jina (JINA_API_KEY) or
-# --no-rerank if you cannot install it.
+# All results in the paper were produced with this backend. The pinned release
+# builds from source and downloads a platform binary during the build; that
+# download currently returns HTTP 403, so this install can fail on a new
+# machine. The reported tables do not depend on it (see README, "Local
+# reranker install"). To re-run retrieval without it, use --rerank-jina.
 nexaai==1.0.37rc9
