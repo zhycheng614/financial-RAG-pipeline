@@ -14,7 +14,7 @@ Six retrieval systems are compared over 1,500 FinDER queries (five fixed groups 
 
 | System | Description | Entry point |
 |---|---|---|
-| **CBR** | Chunk-based retrieval: hybrid FAISS + BM25, RRF fusion, neural reranking | `main_query.py` |
+| **CBR** | Chunk-based retrieval: hybrid FAISS + BM25, RRF fusion, neural reranking. The system of our earlier ICECET 2026 paper (see [Related publication](#related-publication)) | `main_query.py` |
 | **SFR** | Structured file routing: LLM parses the query to a filename, whole document read | `main_filename_based_solution.py` |
 | **HDRR** | Hybrid document-routed retrieval: SFR routing (stage 1) + CBR retrieval within routed docs (stage 2), with full-corpus fallback | `main_hybrid_query.py` |
 | **CBR+Meta (V-A)** | CBR over an index with a static `[Company: TICKER, Fiscal Year: YEAR]` chunk prefix | `main_index_contextual.py --contextual metadata` |
@@ -167,6 +167,22 @@ python -m unittest discover tests/db_tests
 ```
 
 55 tests, no API key or corpus required.
+
+## Authors and contributions
+
+Zhiyuan Cheng (Stanford University), Longying Lai (University of Rochester), Yue Liu (Rutgers University).
+
+Roles as stated in the article's CRediT authorship contribution statement:
+
+> Zhiyuan Cheng: Conceptualization, Methodology, Software, Writing – Original draft, Visualization. Longying Lai: Data curation, Validation, Writing – Review & Editing. Yue Liu: Validation, Writing – Review & Editing.
+
+This repository is maintained by Zhiyuan Cheng.
+
+## Related publication
+
+The CBR baseline is the chunk-based pipeline of our earlier paper, which the article cites as its prior work:
+
+Zhiyuan Cheng, Longying Lai, Yue Liu, Kai Cheng, and Xiaoxi Qi. "Enhancing Financial Report Question-Answering: A Retrieval-Augmented Generation System with Reranking Analysis." *2026 6th International Conference on Electrical, Computer and Energy Technologies (ICECET)*, Rome, Italy, 2026. [doi:10.1109/ICECET65726.2026.11632928](https://doi.org/10.1109/ICECET65726.2026.11632928). Preprint: [arXiv:2603.16877](https://arxiv.org/abs/2603.16877).
 
 ## Citation
 
